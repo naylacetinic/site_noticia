@@ -99,8 +99,18 @@ h1 {
 span {
     font-weight: bold;
 }
-
-#messi {
+footer{
+    background-color: gray;
+}
+#rodape{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+}
+#nomesRodape{
     text-align: center;
-    background-color: darkgreen;
+    padding: 40px;
+    padding-right: 240px;
+}
+#areaLogoRodape{
+    padding: 25px;
 }
