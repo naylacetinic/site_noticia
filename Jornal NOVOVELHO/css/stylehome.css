@@ -1,14 +1,15 @@
-.body{
+.body {
     font-family: "Quicksand", sans-serif;
-  font-weight: 300;
+    font-weight: 300;
 }
+
 #menu ul {
     padding: 5px;
     margin: 0px;
     list-style: none;
     text-align: center;
     font-family: "Quicksand", sans-serif;
-  font-weight: 300;
+    font-weight: 300;
 }
 
 #menu ul li {
@@ -57,34 +58,44 @@ h1 {
     background-color: gray;
 }
 
-.logo{
+.logo {
     padding-top: 7px;
 }
-#cabeca{
+
+#cabeca {
     text-align: center;
 }
-.textonoticia{
+
+.textonoticia {
     text-align: left;
 }
-#not1{
+
+#not1 {
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
     font-family: "Quicksand", sans-serif;
     font-weight: 300;
 }
-.cabecalhonoticia{
+
+.cabecalhonoticia {
     text-align: center;
 }
-.conteudoNot{
+
+.conteudoNot {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5px;
     font-family: "Quicksand", sans-serif;
-  font-weight: 300;
+    font-weight: 300;
 }
-#textoCinema{
+
+#textoCinema {
     background-color: gray;
     margin-top: 100px;
     text-align: center;
+}
+
+span {
+    font-weight: bold;
 }
