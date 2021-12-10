@@ -69,6 +69,11 @@ h1 {
 
 .textonoticia {
     text-align: center;
+    
+
+}
+.textonoticia1 {
+    text-align: center;
     font-size: 30px;
 
 }
@@ -122,6 +127,5 @@ footer {
     padding: 25px;
 }
 h2{
-   
     text-align: center;
 }
