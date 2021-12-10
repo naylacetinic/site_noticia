@@ -1,11 +1,14 @@
 .body{
-    font-family: 'Oswald', sans-serif;
+    font-family: "Quicksand", sans-serif;
+  font-weight: 300;
 }
 #menu ul {
     padding: 5px;
     margin: 0px;
     list-style: none;
     text-align: center;
+    font-family: "Quicksand", sans-serif;
+  font-weight: 300;
 }
 
 #menu ul li {
@@ -67,7 +70,8 @@ h1 {
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
-
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
 }
 .cabecalhonoticia{
     text-align: center;
@@ -76,4 +80,6 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5px;
+    font-family: "Quicksand", sans-serif;
+  font-weight: 300;
 }
