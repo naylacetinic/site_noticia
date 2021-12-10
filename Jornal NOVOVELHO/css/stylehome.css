@@ -17,6 +17,7 @@
     color: white;
     background-color: black;
     font-size: 20px;
+    margin: 30px;
 }
 
 #menu ul li a:hover {
@@ -36,8 +37,9 @@ h1 {
 
 .grid {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 10px;
+    grid-template-columns: 2fr 2fr;
+    gap: 30px;
+    margin: 30px;
 }
 
 .item {
@@ -46,6 +48,29 @@ h1 {
     border: 1px solid black;
     padding: 20px;
     display: grid;
+    background-color: gray;
 }
 
-.titulo {}
+.logo{
+    padding-top: 7px;
+}
+#cabeca{
+    text-align: center;
+}
+.textonoticia{
+    text-align: right;
+}
+#not1{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+
+}
+.cabecalhonoticia{
+    text-align: center;
+}
+.conteudoNot{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
