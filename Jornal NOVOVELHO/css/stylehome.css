@@ -58,7 +58,7 @@ h1 {
     text-align: center;
 }
 .textonoticia{
-    text-align: right;
+    text-align: left;
 }
 #not1{
     display: grid;
